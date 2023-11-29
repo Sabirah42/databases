@@ -70,7 +70,7 @@ Using comments, define the method signatures (arguments and return value) and wh
 class BookRepository():
     # Selecting all records
     # No arguments
-    def all():
+    def all(self):
         # Executes the SQL query:
         # SELECT id, title, author_name FROM books;
 
